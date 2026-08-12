@@ -21,7 +21,7 @@ Test cases will be executed manually and the actual results will be recorded bas
 
 | Test Case ID | Module | Expected Result | Actual Result | Status |
 |---|---|---|---|---|
-| TC01 | Registration | Account should be created successfully | Not Executed | Not Executed |
+| TC01 | Registration | Account should be created successfully | Pass
 | TC02 | Registration | Validation messages should be displayed | Not Executed | Not Executed |
 | TC03 | Registration | Email validation message should appear | Not Executed | Not Executed |
 | TC04 | Login | User should login successfully | Not Executed | Not Executed |
