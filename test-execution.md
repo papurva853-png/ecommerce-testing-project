@@ -31,7 +31,7 @@ Test cases will be executed manually and the actual results will be recorded bas
 | TC06 | Login | Validation messages should appear | Validation messages appeared | Pass |
 | TC07 | Login | Password should be masked | Password was masked | Pass |
 | TC08 | Product Search | Relevant products should be displayed | Relevant products were displayed | Pass |
-| TC09 | Product Search | No product found message should appear | Expected no-product message was not displayed | Fail |
+| TC09 | Product Search | No product found message should appear | No product found message was displayed | Fail |
 | TC10 | Product Search | Appropriate result or validation should appear | Appropriate result or validation was displayed | Pass |
 | TC11 | Product Details | Correct product name should be displayed | Correct product name was displayed | Pass |
 | TC12 | Product Details | Correct product price should be displayed | Product price did not match the expected result | Fail |
