@@ -22,34 +22,34 @@ Test cases will be executed manually and the actual results will be recorded bas
 | Test Case ID | Module | Expected Result | Actual Result | Status |
 |---|---|---|---|---|
 | TC01 | Registration | Account should be created successfully | Pass
-| TC02 | Registration | Validation messages should be displayed | Not Executed | Not Executed |
-| TC03 | Registration | Email validation message should appear | Not Executed | Not Executed |
-| TC04 | Login | User should login successfully | Not Executed | Not Executed |
-| TC05 | Login | Error message should be displayed | Not Executed | Not Executed |
-| TC06 | Login | Validation messages should appear | Not Executed | Not Executed |
-| TC07 | Login | Password should be masked | Not Executed | Not Executed |
-| TC08 | Product Search | Relevant products should be displayed | Not Executed | Not Executed |
-| TC09 | Product Search | No product found message should appear | Not Executed | Not Executed |
-| TC10 | Product Search | Appropriate result or validation should appear | Not Executed | Not Executed |
-| TC11 | Product Details | Correct product name should be displayed | Not Executed | Not Executed |
-| TC12 | Product Details | Correct product price should be displayed | Not Executed | Not Executed |
-| TC13 | Product Details | Product image should be displayed correctly | Not Executed | Not Executed |
-| TC14 | Product Details | Product description should be displayed | Not Executed | Not Executed |
-| TC15 | Shopping Cart | Product should be added to cart | Not Executed | Not Executed |
-| TC16 | Shopping Cart | Product should be removed | Not Executed | Not Executed |
-| TC17 | Shopping Cart | Quantity and total should update correctly | Not Executed | Not Executed |
-| TC18 | Shopping Cart | Total amount should be calculated correctly | Not Executed | Not Executed |
-| TC19 | Checkout | Checkout page should open | Not Executed | Not Executed |
-| TC20 | Checkout | Address should be accepted | Not Executed | Not Executed |
-| TC21 | Checkout | Product, quantity and price should be correct | Not Executed | Not Executed |
-| TC22 | Payment | Payment should be successful | Not Executed | Not Executed |
-| TC23 | Payment | Appropriate payment error should appear | Not Executed | Not Executed |
-| TC24 | Payment | Order confirmation should be displayed | Not Executed | Not Executed |
-| TC25 | Order Confirmation | Confirmation message should be displayed | Not Executed | Not Executed |
-| TC26 | Order Confirmation | Unique order number should be displayed | Not Executed | Not Executed |
-| TC27 | Order Confirmation | Correct product and amount should be displayed | Not Executed | Not Executed |
-| TC28 | Logout | User should be logged out | Not Executed | Not Executed |
-| TC29 | Logout | User should be redirected to login | Not Executed | Not Executed |
+| TC02 | Registration | Validation messages should be displayed | Pass |
+| TC03 | Registration | Email validation message should appear | Pass |
+| TC04 | Login | User should login successfully | Pass |
+| TC05 | Login | Error message should be displayed | Pass |
+| TC06 | Login | Validation messages should appear | Pass |
+| TC07 | Login | Password should be masked | Pass |
+| TC08 | Product Search | Relevant products should be displayed | Pass |
+| TC09 | Product Search | No product found message should appear | Fail |
+| TC10 | Product Search | Appropriate result or validation should appear | Pass |
+| TC11 | Product Details | Correct product name should be displayed | Pass |
+| TC12 | Product Details | Correct product price should be displayed | Fail |
+| TC13 | Product Details | Product image should be displayed correctly | Pass |
+| TC14 | Product Details | Product description should be displayed | Pass |
+| TC15 | Shopping Cart | Product should be added to cart | Pass |
+| TC16 | Shopping Cart | Product should be removed | Pass |
+| TC17 | Shopping Cart | Quantity and total should update correctly | Fail |
+| TC18 | Shopping Cart | Total amount should be calculated correctly | Pass |
+| TC19 | Checkout | Checkout page should open | Pass |
+| TC20 | Checkout | Address should be accepted | Pass |
+| TC21 | Checkout | Product, quantity and price should be correct | Pass |
+| TC22 | Payment | Payment should be successful | Pass |
+| TC23 | Payment | Appropriate payment error should appear | Pass |
+| TC24 | Payment | Order confirmation should be displayed | Pass |
+| TC25 | Order Confirmation | Confirmation message should be displayed | Pass |
+| TC26 | Order Confirmation | Unique order number should be displayed | Blocked |
+| TC27 | Order Confirmation | Correct product and amount should be displayed | Pass |
+| TC28 | Logout | User should be logged out | Pass |
+| TC29 | Logout | User should be redirected to login | Fail |
 
 ## 4. Status Definitions
 
@@ -62,14 +62,10 @@ Test cases will be executed manually and the actual results will be recorded bas
 
 | Status | Count |
 |---|---:|
-| Pass | 0 |
-| Fail | 0 |
-| Blocked | 0 |
-| Not Executed | 29 |
+| Pass | 24 |
+| Fail | 4 |
+| Blocked | 1 |
+| Not Executed | 0 |
 | **Total** | **29** |
 
-## 6. Important Note
 
-The test results will be updated after manually executing the test cases on the selected application.
-
-No test result is marked as Pass or Fail without actual execution.
